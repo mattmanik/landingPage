@@ -13,6 +13,7 @@ function App() {
        <Button>Bootstrap</Button>
       </header>
       <Row className='row'><p>Hellloooooo</p></Row>
+      <Row className='row'><p>Hellloooooo</p></Row>
     </div>
   );
 }
