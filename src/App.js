@@ -1,16 +1,21 @@
 import './App.css';
-import { Button,Alert, Row }from 'react-bootstrap';
+import {Container,Row,Col,Button,Navbar,Nav,NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Header';
+import Content from './Content';
+import Expander from './Expander';
+import ButtonFoot from './assets/ButtonFoot';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Alert>This is a alert message</Alert>
-       <Button>Bootstrap</Button>
-      </header>
-      <Row className='row'><p>Hellloooooo</p></Row>
-    </div>
+    <div>
+   <Header/>
+   <Content/>
+   <Expander/>
+   <ButtonFoot/>
+   <Footer/>
+  </div>
   );
 }
 
