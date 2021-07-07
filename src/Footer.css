@@ -1,0 +1,20 @@
+li {
+    display:table;
+    margin:0px auto 0px auto;
+}
+ul {
+    display:table;
+    margin:0px auto 0px auto;
+}
+.footer-heading{
+    color: #FBFCFC;
+    font-size: 28px;
+    border-bottom: 1px solid;
+    margin-bottom: 35px;
+    padding-bottom: 5px;
+}
+.footer-sub-heading{
+    margin: 10px 0px;
+    color: #FBFCFC;
+    font-size: 16px;
+}

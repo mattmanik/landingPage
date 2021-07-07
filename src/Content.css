@@ -7,14 +7,68 @@
     height:50px;
     width:200px;
 }
-.btnClass2{
+.btnClass2 {
     background-color: #FBFCFC !important;
     color: #071425 !important;
     border-color: #A7A7A7 !important;
     font-size: 15px;
     height:50px;
-    width:200px;
+    width:200px; 
 }
+
+.btnClass1:hover {
+    background-color: #071425 !important;
+    color: #fbfcfc !important;
+    border-color: #071425 !important;
+    font-size: 17px;
+    height:50px;
+    width:200px; 
+}
+
+.btnClass2:hover {
+    transition: 100ms;
+    border-color: #071425 !important;
+    color: #071425 !important;
+    border-width: 2px !important;
+    font-size: 17px;
+}
+.btnClass4:hover {
+    transition: 100ms;
+    border-color: #071425 !important;
+    color: #071425 !important;
+    border-width: 2px !important;
+    font-size: 17px;
+}
+.btnClass5:hover {
+    transition: 100ms;
+    border-color: #071425 !important;
+    color: #071425 !important;
+    border-width: 2px !important;
+    font-size: 17px;
+}
+
+.btnClass3:hover {
+    transition: 100ms;
+    border-color: #071425 !important;
+    color: #fbfcfc !important;
+    border-width: 2px !important;
+    font-size: 17px;
+}
+.btnClass7:hover {
+    transition: 100ms;
+    border-color: #071425 !important;
+    color: #071425 !important;
+    border-width: 2px !important;
+    font-size: 17px;
+}
+.btnClass6:hover {
+    transition: 100ms;
+    border-color: #071425 !important;
+    color: #fbfcfc !important;
+    border-width: 2px !important;
+    font-size: 17px;
+}
+
 
 .btnClass3{
     background-color: #071425 !important;

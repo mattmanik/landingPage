@@ -10,11 +10,11 @@ import Footer from './Footer';
 function App() {
   return (
     <div>
-   <Header/>
-   <Content/>
-   <Expander/>
-   <ButtonFoot/>
-   <Footer/>
+      <Header/>
+      <Content/>
+      <Expander/>
+      <ButtonFoot/>
+      <Footer/>
   </div>
   );
 }

@@ -22,26 +22,27 @@ import { RiCustomerServiceFill } from "react-icons/ri";
 function Content() {
   return (
     <Container style={{ paddingTop: 50 }}>
+      <div style={{paddingBottom:'100px',width:'100%'}}>
+
       <Row>
-        <Col style={{ padding: 50, paddingBottom: 5 }}>
+        <Col>
           <p
             style={{
               fontFamily: "Taviraj",
               color: "#071425",
               fontWeight: "bold",
               fontSize: 35,
-            }}
-          >
+            }}>
             Find a Professional Engineer <br></br>
             For Your next project!
           </p>
         </Col>
-        <Col md="auto" style={{ padding: 50 }}></Col>
-        <Col xs lg="2" style={{ padding: 50 }}></Col>
+        {/* <Col md="auto" style={{ padding: 50 }}></Col>
+        <Col xs lg="2" style={{ padding: 50 }}></Col> */}
       </Row>
 
       <Row>
-        <Col style={{ padding: 50, paddingTop: 10, paddingBottom: 5 }}>
+        <Col>
           <p
             style={{ fontFamily: "Work Sans", color: "#636363", fontSize: 20 }}
           >
@@ -49,12 +50,10 @@ function Content() {
             and Professional Engineers in one portal
           </p>
         </Col>
-        <Col md="auto" style={{ padding: 50 }}></Col>
-        <Col xs lg="2" style={{ padding: 50 }}></Col>
       </Row>
 
       <Row>
-        <Col lg={6} style={{ padding: 50, paddingTop: 10 }}>
+        <Col lg={6}>
           <Row>
             <Col style={{ padding: 5, paddingTop: 10, width: "100%" }}>
               <Button size="lg" className="btnClass1">
@@ -68,10 +67,11 @@ function Content() {
             </Col>
           </Row>
         </Col>
-        <Col style={{ padding: 50 }}></Col>
-        <Col style={{ padding: 50 }}></Col>
       </Row>
 
+
+      </div>
+      
       <Row style={{ paddingBottom: 30 }}>
         <Col style={{ paddingTop: 15, backgroundColor: "#071425" }}>
           <p style={{ color: "#FBFCFC", textAlign: "center", fontSize: 30 }}>
@@ -155,23 +155,19 @@ function Content() {
               textAlign: "center",
               fontSize: 20,
               marginTop: -15,
-            }}
-          >
+            }}>
             for company{" "}
           </p>
         </Col>
       </Row>
 
-      <Row style={{ paddingBottom: 30 }}>
-        <Col style={{ padding: 50 }}>
+      <Row style={{ paddingBottom: 30,alignItems:'center' }}>
+        <Col style={{textAlign: "center"}}>
           <img
             style={{
-              width: "100%",
-              padding: "10%",
-              borderRadius: '15%',
-              marginTop: -35,
-              textAlign: "center",
-            }}
+              width: "70%",
+              borderRadius: '50px'
+            }} 
             alt="handshake"
             src="https://therainmakercompanies.com/wp-content/uploads/2019/02/Shaking-Hands-Meeting-Resized-for-Blog.jpg"
           />
@@ -466,8 +462,7 @@ function Content() {
             </Col>
           </Row>
         </Col>
-      </Row> 
-
+      </Row>
       <Row>
         <Col style={{ padding: 20 }}></Col>
       </Row>
@@ -476,3 +471,4 @@ function Content() {
 }
 
 export default Content;
+
